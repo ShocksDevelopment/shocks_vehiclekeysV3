@@ -1,7 +1,7 @@
 Config = {}
 
 Config.Version = '1.1.0'
-Config.Debug = false
+Config.Debug = true
 
 Config.Framework = 'auto' -- auto | qbox | qbcore
 Config.QBCoreResource = 'qb-core'
@@ -80,13 +80,13 @@ Config.Compatibility = {
 Config.Integrations = {
     hotwire = {
         enabled = true,
-        resource = 'shocks_hotwire',
+        resource = 'SHOCKS-hotwireV3',
         autoStartOnKeylessVehicle = false,
         exposeBridgeExport = true,
     },
     garage = {
         enabled = true,
-        resource = 'shocks_garage',
+        resource = 'SHOCKS-garageV3',
         refreshOnGarageSpawn = true,
     },
 }
